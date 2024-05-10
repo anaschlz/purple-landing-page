@@ -56,8 +56,8 @@ main{
 
 h2{
     font-size: 56px;
-    line-height: 10px;
     font-family: poppinsmedium;
+    margin: 2px;
 }
 
 span{
@@ -106,8 +106,8 @@ input{
     header{
         flex-direction: row;
         justify-content: space-between;
+
     }
-    
     #title{
         margin-bottom: 0;
     }
