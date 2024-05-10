@@ -101,3 +101,27 @@ input{
     border: none;
     font-size: 15px;
 }
+
+@media only screen and (min-width: 768px) {
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #title{
+        margin-bottom: 0;
+    }
+    
+    nav{
+        margin-top: 0;
+    }
+    
+    main{
+        flex-direction: row;
+    }
+    
+    p{
+        max-width: 500px;
+        margin: 0;
+    }
+}
